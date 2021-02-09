@@ -11,23 +11,15 @@ The following are required for the library to execute corretly.
 `  
     Insert in secction:
 
-      <system.webServer>
-      
-        <handlers>
-    
-        <remove name="ExtensionlessUrlHandler-Integrated-4.0"/>
-      
-        <remove name="OPTIONSVerbHandler"/>
-      
-        <remove name="TRACEVerbHandler"/>
-      
+      <system.webServer>      
+        <handlers>    
+        <remove name="ExtensionlessUrlHandler-Integrated-4.0"/>      
+        <remove name="OPTIONSVerbHandler"/>      
+        <remove name="TRACEVerbHandler"/>      
         <add name="ExtensionlessUrlHandler-Integrated-4.0" path="*." verb="*" type="System.Web.Handlers.TransferRequestHandler"
-                preCondition="integratedMode,runtimeVersionv4.0"/>
-      
-      </handlers>
-    
-      <validation validateIntegratedModeConfiguration="false"/>
-    
+                preCondition="integratedMode,runtimeVersionv4.0"/>      
+      </handlers>    
+      <validation validateIntegratedModeConfiguration="false"/>    
     </system.webServer>
 `
   
