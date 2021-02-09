@@ -7,8 +7,9 @@ The following are required for the library to execute corretly.
 
 - appsettings.json file tagged to be copied when application is being published for deployemnt (see included example appsettings.json file and update as neccessary)
 - web.config updated with the following code:
+
 `  
-    Insert in the <system.webserver> secction:
+    Insert in the system.webserver section:
 
     <system.webServer>      
       <handlers>    
