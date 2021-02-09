@@ -11,8 +11,8 @@ The following are required for the library to execute corretly.
 `  
     Insert in secction:
 
-      <system.webServer>      
-        <handlers>    
+    <system.webServer>      
+      <handlers>    
         <remove name="ExtensionlessUrlHandler-Integrated-4.0"/>      
         <remove name="OPTIONSVerbHandler"/>      
         <remove name="TRACEVerbHandler"/>      
