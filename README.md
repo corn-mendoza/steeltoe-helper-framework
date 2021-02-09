@@ -9,22 +9,22 @@ The following are required for the library to execute corretly.
 - web.config updated with the following code:
 
 `  
-  <system.webServer>
+    <system.webServer>
 
-    <handlers>
+      <handlers>
     
-      <remove name="ExtensionlessUrlHandler-Integrated-4.0"/>
+        <remove name="ExtensionlessUrlHandler-Integrated-4.0"/>
       
-      <remove name="OPTIONSVerbHandler"/>
+        <remove name="OPTIONSVerbHandler"/>
       
-      <remove name="TRACEVerbHandler"/>
+        <remove name="TRACEVerbHandler"/>
       
-      <add name="ExtensionlessUrlHandler-Integrated-4.0" path="*." verb="*" type="System.Web.Handlers.TransferRequestHandler" preCondition="integratedMode,runtimeVersionv4.0"/>
+        <add name="ExtensionlessUrlHandler-Integrated-4.0" path="*." verb="*" type="System.Web.Handlers.TransferRequestHandler" preCondition="integratedMode,runtimeVersionv4.0"/>
       
-    </handlers>
+      </handlers>
     
-    <validation validateIntegratedModeConfiguration="false"/>
+      <validation validateIntegratedModeConfiguration="false"/>
     
-  </system.webServer>
+    </system.webServer>
 `
   
