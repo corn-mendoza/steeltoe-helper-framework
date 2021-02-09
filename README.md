@@ -8,7 +8,8 @@ The following are required for the library to execute corretly.
 - appsettings.json file tagged to be copied when application is being published for deployemnt
 - web.config updated with the following code:
 
-`  <system.webServer>
+`  
+  <system.webServer>
 
     <handlers>
     
@@ -24,5 +25,6 @@ The following are required for the library to execute corretly.
     
     <validation validateIntegratedModeConfiguration="false"/>
     
-  </system.webServer>`
+  </system.webServer>
+`
   
