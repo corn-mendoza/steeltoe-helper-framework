@@ -21,7 +21,8 @@ The following are required for the library to execute corretly.
       
         <remove name="TRACEVerbHandler"/>
       
-        <add name="ExtensionlessUrlHandler-Integrated-4.0" path="*." verb="*" type="System.Web.Handlers.TransferRequestHandler" preCondition="integratedMode,runtimeVersionv4.0"/>
+        <add name="ExtensionlessUrlHandler-Integrated-4.0" path="*." verb="*" type="System.Web.Handlers.TransferRequestHandler"
+                preCondition="integratedMode,runtimeVersionv4.0"/>
       
       </handlers>
     
